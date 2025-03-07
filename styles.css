@@ -268,3 +268,9 @@ nav {
     grid-auto-flow: dense;
     direction: rtl;
 }
+
+.about__container .section__description {
+    max-width: 900px;
+    margin-inline: auto;
+    text-align: center;
+}
