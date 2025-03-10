@@ -413,3 +413,27 @@ nav {
 .blog__card:hover .blog__content {
     top: 0;
 }
+
+.instagram__container {
+    padding-block: 1rem;
+    overflow: hidden;
+}
+
+.instagram__flex {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+    animation: scroll 45s linear infinite;
+}
+
+.instagram__flex img {
+    max-width: 120px;
+}
+
+@keyframes scroll {
+    to {
+      transform: translateX(calc(-50% - 5px));
+    }
+}
